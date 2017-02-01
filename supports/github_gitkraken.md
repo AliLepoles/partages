@@ -43,13 +43,13 @@ Vérifier le répertoire en cours d'utilisation **sous MAC ou autre** | **pwd** 
 Créer un _dossier_ | **mkdir** mondossier | Possible en utilisant / | :imp: | :octocat:
 _(Ré-)_ Initialiser le tracking d'un _dossier_ | **git init** | :imp: | Possible, cliqer sur "init" | :octocat:
 Créer un _fichier_ | **touch** monfichier.ext | bouton `create new file` | :imp: | :octocat: | :octocat:
-Voir les sous-dossiers | **ls** _qui est l'abbréviation anglaise de `list subfiles`_ | :octocat: | :imp: | :octocat:
-Voir les sous-dossiers **cachés** | **ls -a** | :octocat: | :imp: | :octocat:
-Vérifier l'état des dossiers et fichiers trakés avec git | **git status** | :octocat: | Possible | :octocat:
+Voir les sous-dossiers | **ls** _qui est l'abbréviation anglaise de `list subfiles`_ | Visibles de base (pas en local) | :imp: | :octocat:
+Voir les sous-dossiers **cachés** | **ls -a** | Pas de dossiers cachés (pas en local) | :imp: | :octocat:
+Vérifier l'état des dossiers et fichiers trakés avec git | **git status** | :imp: | Possible | :octocat:
 Cloner un _repository_ de GitHub pour travailler en local | **git clone** https://monrepo | :imp: | Possible, cliquer sur "clone" puis coller le lien | :octocat:
 Ajouter _tous_ les fichiers _modifiés_ au tracking | __git add `*`__ ou **git add .** | :imp: | Possible, en cliquant sur "stage all files". | :octocat:
 Ajouter _un_ fichier _modifié_ au tracking | **git add `monfichier.ext`** | :imp: | Possible, en cliquant sur "stage file". | :octocat:
-Enregistrer les modifications | **git commit -m "description"** | :octocat: | Possible, après un ou plusieurs "stage file" ajouter une description puis cliquer sur "changes to commit" | :octocat:
+Enregistrer les modifications | **git commit -m "description"** | Rien a faire | Possible, après un ou plusieurs "stage file" ajouter une description puis cliquer sur "changes to commit" | :octocat:
 Raccourci de  _rajouter au traking_ et _enregistrer_ | **git commit -a -m "description"** | :octocat: | :imp: | :octocat:
 Récupérer sur son répertoire _local_ les derniers changement faits sur GitHub | **git pull origin `master` (OU `mabranche`)** | :octocat: | Oui, en cliquant sur pull | :octocat:
 Récupérer sur son repository _GitHub_ les derniers changement faits en local | **git push origin `master` (OU `mabranche`)** | :octocat: | Oui, boutton push | :octocat:
