@@ -24,7 +24,7 @@
 - [ ] compléter le tableau avec le résultat de vos tests (si une action est possible avec un outil, noter les instructions/commandes/boutons à cliquer et _si ce n'est **pas possible** avec un outil..._ :imp:!)
 - [ ] on ajoute bien évidemment des lignes au tableau si les commandes / instructions n'y sont pas encore, mais que vous avez **trouvées _(après recherche **sérieuse** sur internet)_ ET testées"" !!
 - [ ] les utilisateurs de Macs sont invités à noter/demander les différences dans la dernière colonne... il y en à parfois...:sweat:
-- [ ] dès qu'une tâche dans cette liste **est finie à _100%_**, ajouter un `x` (en mode EDIT) entre les [ ] pour indiquer que c'est fait comme ci-dessous
+- [x] dès qu'une tâche dans cette liste **est finie à _100%_**, ajouter un `x` (en mode EDIT) entre les [ ] pour indiquer que c'est fait comme ci-dessous
 - [x] c'est fait ! :sunglasses:
 
 ---
@@ -40,11 +40,11 @@ Actions | Terminal (ou cmder par ex.) | GitHub | GitKraken | Sous Mac (Terminal 
 **En local** aller sur le répertoire _raçine C://_ | cd../.. | :imp: | :imp: | cd.. ne fonctionne PAS aussi => indiquer **cd/tous/les/répertoires à parcourir** à CHAQUE instruction **cd/XXX**
 **En local** rentrer dans le répertoire de travail `htdocs` de xampp | cd xampp\htdocs | :imp: | :imp: | :octocat: | cd /Applications/xampp/htdocs
 Vérifier le répertoire en cours d'utilisation **sous MAC ou autre** | **pwd** | **pwd** | **pwd** | **pwd** pour Present Writing Directory
-Créer un _dossier_ | **mkdir** mondossier | :imp: | :imp: | :octocat:
-_(Ré-)_ Initialiser le tracking d'un _dossier_ | **git init** | :imp: | :imp: | :octocat:
-Créer un _fichier_ | **touch** monfichier.ext | bouton `create new file` | :octocat: | :octocat: | :octocat:
-Voir les sous-dossiers | **ls** _qui est l'abbréviation anglaise de `list subfiles`_ | :octocat: | :octocat: | :octocat:
-Voir les sous-dossiers **cachés** | **ls -a** | :octocat: | :octocat: | :octocat:
+Créer un _dossier_ | **mkdir** mondossier | Faisable via / | :imp: | :octocat:
+_(Ré-)_ Initialiser le tracking d'un _dossier_ | **git init** | :imp: | Possible, proposé lors de l'ouverture d'un fichier non tracké | :octocat:
+Créer un _fichier_ | **touch** monfichier.ext | bouton `create new file` | :imp: | :octocat: | :octocat:
+Voir les sous-dossiers | **ls** _qui est l'abbréviation anglaise de `list subfiles`_ | :octocat: | :imp: | :octocat:
+Voir les sous-dossiers **cachés** | **ls -a** | :octocat: | :imp: | :octocat:
 Vérifier l'état des dossiers et fichiers trakés avec git | **git status** | :octocat: | :octocat: | :octocat:
 Cloner un _repository_ de GitHub pour travailler en local | **git clone** https://monrepo | :imp: | :octocat: | :octocat:
 Ajouter _tous_ les fichiers _modifiés_ au tracking | __git add `*`__ ou **git add .** | :imp: | :octocat: | :octocat:
